@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="DatabaseScript">
+    <script-mode>FILE</script-mode>
+    <data-source id="6e8f577a-4f64-4f3a-b58f-56296fb3fc73" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="init_script.sql" run_configuration_type="DatabaseScript" />
+    </method>
+  </configuration>
+</component>

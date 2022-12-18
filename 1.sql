@@ -1,8 +1,6 @@
--- It's time for the seniors to graduate. Remove all 12th graders from Highschooler.
+-- Find the names of all students who are friends with someone named Gabriel.
 
-delete from highschooler
-where grade = 12;
-
-SELECT *
-FROM Highschooler
-ORDER BY ID;
+select t1.name
+from
+(select * from (highschooler join friend on id = id1)) as t1
+where t1.id2 in (select id from highschooler where name = 'Gabriel');

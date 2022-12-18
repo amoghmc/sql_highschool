@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="018a90aa-fb64-400c-9dac-8903c3fd0016" name="highschool_db Mapping">
+      <data-sources db="6e8f577a-4f64-4f3a-b58f-56296fb3fc73" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+  </component>
+</project>
